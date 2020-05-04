@@ -1,62 +1,56 @@
 ﻿[
   {
-    "coordinates": [ 64.043065, -16.175841 ],
-    "clusterCaption": "Исландия",
-    "videoId": "XPGEGEBb6PE",
-    "channelTitle": "Allan Su",
-    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
-    "videoLength": "30:40",
-    "videoTimeCode": 1000,
-    "sight": "Diamond beach"
+    "coordinates": [ 54.4300833, 160.1421667 ],
+    "videoId": "_-Df3db4qfg",
+    "channelTitle": "FollowMeTo",
+    "videoTitle": "#FollowMeTo Kamchatka. Guide III",
+    "videoLength": "06:07",
+    "videoTimeCode": 85,
+    "sight": "Valley of Geysers"
   },
   {
-    "coordinates": [ 64.268917, -14.990996 ],
-    "clusterCaption": "Исландия",
-    "videoId": "XPGEGEBb6PE",
-    "channelTitle": "Allan Su",
-    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
-    "videoLength": "30:40",
-    "videoTimeCode": 1036,
-    "sight": "Vestrahorn"
+    "coordinates": [ 53.50, 158.02 ],
+    "videoId": "2Hq3KVzxPFI",
+    "channelTitle": "FollowMeTo",
+    "videoTitle": "#FollowMeTo Kamchatka. Guide I",
+    "videoLength": "11:02",
+    "videoTimeCode": 224,
+    "sight": "Gorelyi volcano"
   },
   {
-    "coordinates": [ 64.125020, -21.848465 ],
-    "clusterCaption": "Исландия",
-    "videoId": "wb84vvYSPEU",
-    "channelTitle": "Антон Птушкин",
-    "videoTitle": "Исландия на автомобиле. Большой выпуск.",
-    "videoLength": "30:40",
-    "videoTimeCode": 1546,
-    "sight": "Reykjavik"
+    "coordinates": [ 52.9838160536898, 158.841709010303 ],
+    "videoId": "HsYqw2bs50A",
+    "channelTitle": "FollowMeTo",
+    "videoTitle": "#FollowMeTo Kamchatka. Guide II",
+    "videoLength": "10:24",
+    "videoTimeCode": 113,
+    "sight": "Halaktyr beach"
   },
   {
-    "coordinates": [ 64.033993, -21.216209 ],
-    "clusterCaption": "Исландия",
-    "videoId": "wb84vvYSPEU",
-    "channelTitle": "Антон Птушкин",
-    "videoTitle": "Исландия на автомобиле. Большой выпуск.",
-    "videoLength": "30:40",
-    "videoTimeCode": 1871,
-    "sight": "Reykjadalur"
+    "coordinates": [ 53, 158.65 ],
+    "videoId": "UpG0lR0dWyk",
+    "channelTitle": "Aleksandr Petrovets",
+    "videoTitle": "Россия Петропавловск-Камчатский 4k",
+    "videoLength": "11:57",
+    "videoTimeCode": 31,
+    "sight": "Petropavlovsk-Kamchatsky"
   },
   {
-    "coordinates": [ 64.0400, -20.8880 ],
-    "clusterCaption": "Исландия",
-    "videoId": "XPGEGEBb6PE",
-    "channelTitle": "Allan Su",
-    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
-    "videoLength": "30:40",
-    "videoTimeCode": 493,
-    "sight": "Kerid Crater"
+    "coordinates": [ 54.50, 159.97 ],
+    "videoId": "_-Df3db4qfg",
+    "channelTitle": "FollowMeTo",
+    "videoTitle": "#FollowMeTo Kamchatka. Guide III",
+    "videoLength": "06:07",
+    "videoTimeCode": 244,
+    "sight": "Uzon volcano"
   },
   {
-    "coordinates": [ 64.3167, -20.2933 ],
-    "clusterCaption": "Исландия",
-    "videoId": "XPGEGEBb6PE",
-    "channelTitle": "Allan Su",
-    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
-    "videoLength": "30:40",
-    "videoTimeCode": 520,
-    "sight": "Geysers"
-  }  
+    "coordinates": [ 53.50, 158.02 ],
+    "videoId": "HsYqw2bs50A",
+    "channelTitle": "FollowMeTo",
+    "videoTitle": "#FollowMeTo Kamchatka. Guide II",
+    "videoLength": "10:24",
+    "videoTimeCode": 224,
+    "sight": "Gorelyi volcano"
+  }
 ]

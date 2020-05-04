@@ -23,21 +23,22 @@ HtmlGenerator = function () {
     }
 
     function getDescriptionDiv(detail) {
-        var descriptionDiv = $("<div>", { class: 'description' });
-        var videoDescriptionDiv = getVideoDescriptionDiv(detail);
-        var locationDiv = getLocationDiv(detail);
-
-        descriptionDiv.append(videoDescriptionDiv);
-        descriptionDiv.append(locationDiv);
-
+        var descriptionDiv = $("<div>", { class: 'description' });        
+        descriptionDiv.append(getVideoDescriptionDiv(detail));
+        descriptionDiv.append(getLocationDiv(detail));
         return descriptionDiv;
     }
 
     function getVideoDescriptionDiv(detail) {
         var videoDescriptionDiv = $("<div>", { class: 'video-description' });
+        var videoTimeCodeDiv = $("<div>", { class: 'video-timecode' });        
         var channelTitleDiv = $("<div>", { class: 'channel-title' }).text(detail.channelTitle);
         var videoTitleDiv = $("<div>", { class: 'video-title' }).text(detail.videoTitle);
 
+        videoTimeCodeDiv.append($("<img>", { src: 'location-50.png' }));
+        videoTimeCodeDiv.append(getLocationNode(detail));
+
+        videoDescriptionDiv.append(videoTimeCodeDiv);
         videoDescriptionDiv.append(channelTitleDiv);
         videoDescriptionDiv.append(videoTitleDiv);
 
@@ -46,38 +47,15 @@ HtmlGenerator = function () {
 
     function getLocationDiv(detail) {
         var locationDiv = $("<div>", { class: 'location' });
-        var videoLengthDiv = $("<div>", { class: 'video-length' });
-        var videoTimeCodeDiv = $("<div>", { class: 'video-timecode' });
-
+        var videoLengthDiv = $("<div>", { class: 'video-length' });        
         videoLengthDiv.append($("<img>", { src: 'timer-50.png' }));
         videoLengthDiv.append(document.createTextNode(detail.videoLength));
-        videoTimeCodeDiv.append($("<img>", { src: 'location-50.png' }));
-        videoTimeCodeDiv.append(getLocationNode(detail));
-
         locationDiv.append(videoLengthDiv);
-        locationDiv.append(videoTimeCodeDiv);
-
         return locationDiv;
     }
 
     function getLocationNode(detail) {
-        var locationStr = secondsToStr(detail.videoTimeCode) + ' - ' + detail.sight;
-        return document.createTextNode(locationStr);
-    }
-
-    function secondsToStr(sec) {
-        var sec_num = parseInt(sec, 10);
-        var hours = Math.floor(sec_num / 3600);
-        var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
-        var seconds = sec_num - (hours * 3600) - (minutes * 60);
-
-        if (hours < 10) { hours = "0" + hours; }
-        if (minutes < 10) { minutes = "0" + minutes; }
-        if (seconds < 10) { seconds = "0" + seconds; }
-
-        return hours != "00"
-            ? hours + ':' + minutes + ':' + seconds
-            : minutes + ':' + seconds;
+        return $("<div>", { class: 'video-location', onclick: 'centerMap(' + detail.coordinates + ')' }).text(detail.sight);
     }
 }();
 

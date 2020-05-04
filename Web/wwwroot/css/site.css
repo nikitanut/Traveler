@@ -51,7 +51,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    height: 100vh;
 }
 .footer {
   position: absolute;
@@ -63,23 +63,32 @@ body {
 
 #main {
     width: 100%;
-    display: flex;
+    display: flex;    
 }
 
 #map {
     background-color: grey;
     flex: 1;
-    height: 821px;
+    height: 90vh;
 }
 
 #details {    
     flex: 1;
+    overflow: scroll;
+    max-height: 90vh;
 }
 
+    #details::-webkit-scrollbar {
+        display: none;
+    }
+
 .detail {
-    width: 100%;
+    width: 95%;
     display: flex;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+    margin-left: 10px;
+    border-radius: 8px;
 }
 
 .detail iframe {
@@ -90,8 +99,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 2%;
+    margin: 2% 0% 2% 0%;
 }
+
+    .description img {
+        max-width: 25px;
+        margin-right: 5px;
+    }
 
 .video {
     max-width: 300px;
@@ -105,7 +119,7 @@ body {
 
 .video-title {
     font-weight: bold;
-    font-size: 21px;
+    font-size: 1rem;
 }
 
 .channel-title {
@@ -113,19 +127,32 @@ body {
 }
 
 .location {
+    display: inline-block;
 }
-
-    .location img {
-        max-width: 25px;
-    }
 
 .video-length {
     display: inline-block;
     color: #2ecc71;
+    font-size: 1.3rem;
+    align-items: center;
+    display: flex;
 }
 
 .video-timecode {
-    margin-left: 2%;
+    display: inline-block;
+    margin-bottom: 2%;
+    align-items: center;
+    display: flex
+}
+
+.video-location {
     display: inline-block;
     color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.video-location :hover {
+    color: green;
 }
