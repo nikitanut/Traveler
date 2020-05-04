@@ -61,9 +61,71 @@ body {
   line-height: 60px;
 }
 
+#main {
+    width: 100%;
+    display: flex;
+}
+
 #map {
-    width: 95%;
-    height: 700px;
-    margin: auto;
     background-color: grey;
+    flex: 1;
+    height: 821px;
+}
+
+#details {    
+    flex: 1;
+}
+
+.detail {
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detail iframe {
+    height: 185px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.video {
+    max-width: 300px;
+    display: flex;
+    margin: 2%;
+}
+
+.video-description {
+    display: inline-block;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.channel-title {
+    color: gray;
+}
+
+.location {
+}
+
+    .location img {
+        max-width: 25px;
+    }
+
+.video-length {
+    display: inline-block;
+    color: #2ecc71;
+}
+
+.video-timecode {
+    margin-left: 2%;
+    display: inline-block;
+    color: #e74c3c;
 }

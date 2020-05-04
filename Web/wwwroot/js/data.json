@@ -1,15 +1,62 @@
-﻿{
-    "type": "FeatureCollection",
-    "features": [
-        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [55.831903, 37.411961]}, "properties": {"balloonContentBody": "<iframe width='310' height='181' src='https://www.youtube.com/embed/wb84vvYSPEU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>", "hintContent": "Подсказка", "clusterCaption": "Исландия"}},
-        {"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [55.763338, 37.565466]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 2, "geometry": {"type": "Point", "coordinates": [55.763338, 37.565466]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 3, "geometry": {"type": "Point", "coordinates": [55.744522, 37.616378]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 4, "geometry": {"type": "Point", "coordinates": [55.780898, 37.642889]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 6, "geometry": {"type": "Point", "coordinates": [55.800584, 37.675638]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 7, "geometry": {"type": "Point", "coordinates": [55.716733, 37.589988]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 8, "geometry": {"type": "Point", "coordinates": [55.775724, 37.560846]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}},
-        {"type": "Feature", "id": 9, "geometry": {"type": "Point", "coordinates": [55.822144, 37.433781]}, "properties": {"balloonContentBody": "<iframe width='300' height='170' src='https://www.youtube.com/embed/wb84vvYSPEU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>", "hintContent": "<strong>Текст  <s>подсказки</s></strong>", "clusterCaption": "Другая Исландия"}},
-        {"type": "Feature", "id": 10, "geometry": {"type": "Point", "coordinates": [55.87417, 37.669838]}, "properties": {"balloonContentHeader": "<font size=3><b><a target='_blank' href='https://yandex.ru'>Здесь может быть ваша ссылка</a></b></font>", "balloonContentBody": "<p>Ваше имя: <input name='login'></p><p><em>Телефон в формате 2xxx-xxx:</em>  <input></p><p><input type='submit' value='Отправить'></p>", "balloonContentFooter": "<font size=1>Информация предоставлена: </font> <strong>этим балуном</strong>", "clusterCaption": "<strong><s>Еще</s> одна</strong> метка", "hintContent": "<strong>Текст  <s>подсказки</s></strong>"}}
-    ]
-}
+﻿[
+  {
+    "coordinates": [ 64.043065, -16.175841 ],
+    "clusterCaption": "Исландия",
+    "videoId": "XPGEGEBb6PE",
+    "channelTitle": "Allan Su",
+    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
+    "videoLength": "30:40",
+    "videoTimeCode": 1000,
+    "sight": "Diamond beach"
+  },
+  {
+    "coordinates": [ 64.268917, -14.990996 ],
+    "clusterCaption": "Исландия",
+    "videoId": "XPGEGEBb6PE",
+    "channelTitle": "Allan Su",
+    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
+    "videoLength": "30:40",
+    "videoTimeCode": 1036,
+    "sight": "Vestrahorn"
+  },
+  {
+    "coordinates": [ 64.125020, -21.848465 ],
+    "clusterCaption": "Исландия",
+    "videoId": "wb84vvYSPEU",
+    "channelTitle": "Антон Птушкин",
+    "videoTitle": "Исландия на автомобиле. Большой выпуск.",
+    "videoLength": "30:40",
+    "videoTimeCode": 1546,
+    "sight": "Reykjavik"
+  },
+  {
+    "coordinates": [ 64.033993, -21.216209 ],
+    "clusterCaption": "Исландия",
+    "videoId": "wb84vvYSPEU",
+    "channelTitle": "Антон Птушкин",
+    "videoTitle": "Исландия на автомобиле. Большой выпуск.",
+    "videoLength": "30:40",
+    "videoTimeCode": 1871,
+    "sight": "Reykjadalur"
+  },
+  {
+    "coordinates": [ 64.0400, -20.8880 ],
+    "clusterCaption": "Исландия",
+    "videoId": "XPGEGEBb6PE",
+    "channelTitle": "Allan Su",
+    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
+    "videoLength": "30:40",
+    "videoTimeCode": 493,
+    "sight": "Kerid Crater"
+  },
+  {
+    "coordinates": [ 64.3167, -20.2933 ],
+    "clusterCaption": "Исландия",
+    "videoId": "XPGEGEBb6PE",
+    "channelTitle": "Allan Su",
+    "videoTitle": "Iceland Travel Guide - How to travel Iceland | Ring Road Trip",
+    "videoLength": "30:40",
+    "videoTimeCode": 520,
+    "sight": "Geysers"
+  }  
+]
